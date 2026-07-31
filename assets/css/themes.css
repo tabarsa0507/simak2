@@ -1,0 +1,194 @@
+/* ====== تم روشن (پیش‌فرض) ====== */
+:root,
+html.light {
+    --bg-primary: #f0f2f8;
+    --bg-secondary: #ffffff;
+    --bg-sidebar: #1a1a2e;
+    --text-primary: #1a1a2e;
+    --text-secondary: #6c757d;
+    --border-color: #e9ecef;
+    --shadow: 0 4px 20px rgba(0,0,0,0.06);
+    --shadow-md: 0 8px 40px rgba(0,0,0,0.12);
+    --primary: #6C63FF;
+    --primary-dark: #5A52D5;
+    --secondary: #FF6584;
+    --success: #00D2A0;
+    --warning: #FFB84D;
+    --danger: #FF6B6B;
+    --info: #4ECDC4;
+}
+
+/* ====== تم تاریک ====== */
+html.dark {
+    --bg-primary: #0f0f1e;
+    --bg-secondary: #1a1a2e;
+    --bg-sidebar: #0d0d1a;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0b8;
+    --border-color: #2a2a4a;
+    --shadow: 0 4px 20px rgba(0,0,0,0.4);
+    --shadow-md: 0 8px 40px rgba(0,0,0,0.6);
+    --primary: #8B83FF;
+    --primary-dark: #6C63FF;
+    --secondary: #FF7A94;
+    --success: #00E6B0;
+    --warning: #FFC86D;
+    --danger: #FF7A7A;
+    --info: #5EDDD6;
+}
+
+/* ====== انتقال‌های نرم ====== */
+body,
+.card,
+.sidebar,
+.nav-link,
+.form-control,
+.btn {
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ====== کارت‌ها در تم تاریک ====== */
+html.dark .card-modern,
+html.dark .stat-card,
+html.dark .card-custom {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+html.dark .card-modern .card-header {
+    border-bottom-color: var(--border-color);
+}
+
+/* ====== جدول‌ها در تم تاریک ====== */
+html.dark .table-modern thead th {
+    background: rgba(255,255,255,0.03);
+    color: var(--text-secondary);
+    border-bottom-color: var(--border-color);
+}
+
+html.dark .table-modern tbody td {
+    border-bottom-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+html.dark .table-modern tbody tr:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+/* ====== فرم‌ها در تم تاریک ====== */
+html.dark .form-control,
+html.dark .form-select {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+html.dark .form-control:focus,
+html.dark .form-select:focus {
+    background: var(--bg-secondary);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.15);
+}
+
+html.dark .form-control::placeholder {
+    color: var(--text-secondary);
+}
+
+/* ====== سایدبار در تم تاریک ====== */
+html.dark .sidebar {
+    background: var(--bg-sidebar);
+}
+
+html.dark .sidebar-nav .nav-link {
+    color: rgba(255,255,255,0.6);
+}
+
+html.dark .sidebar-nav .nav-link:hover {
+    background: rgba(255,255,255,0.05);
+    color: white;
+}
+
+html.dark .sidebar-nav .nav-link.active {
+    background: rgba(108, 99, 255, 0.2);
+    color: white;
+}
+
+/* ====== دکمه‌ها در تم تاریک ====== */
+html.dark .btn-outline-secondary {
+    color: var(--text-secondary);
+    border-color: var(--border-color);
+}
+
+html.dark .btn-outline-secondary:hover {
+    background: var(--border-color);
+    color: white;
+}
+
+/* ====== آلرت‌ها در تم تاریک ====== */
+html.dark .alert {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+html.dark .alert-success {
+    background: rgba(0, 210, 160, 0.1);
+    border-color: rgba(0, 210, 160, 0.2);
+    color: var(--success);
+}
+
+html.dark .alert-danger {
+    background: rgba(255, 107, 107, 0.1);
+    border-color: rgba(255, 107, 107, 0.2);
+    color: var(--danger);
+}
+
+html.dark .alert-warning {
+    background: rgba(255, 184, 77, 0.1);
+    border-color: rgba(255, 184, 77, 0.2);
+    color: var(--warning);
+}
+
+/* ====== پیجینیشن ====== */
+html.dark .pagination .page-link {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+html.dark .pagination .page-item.active .page-link {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+/* ====== مودال ====== */
+html.dark .modal-content {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+html.dark .modal-header {
+    border-bottom-color: var(--border-color);
+}
+
+html.dark .modal-footer {
+    border-top-color: var(--border-color);
+}
+
+/* ====== تب‌ها ====== */
+html.dark .nav-tabs .nav-link {
+    color: var(--text-secondary);
+    border-color: var(--border-color);
+}
+
+html.dark .nav-tabs .nav-link.active {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    border-bottom-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+html.dark .tab-content {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
