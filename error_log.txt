@@ -1,0 +1,12 @@
+[11-Jul-2026 15:04:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Undefined constant "persian_number_str" in C:\xampp\htdocs\company_kb\secretariat.php:912
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\company_kb\secretariat.php on line 912
+[11-Jul-2026 15:05:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Undefined constant "persian_number_str" in C:\xampp\htdocs\company_kb\secretariat.php:909
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\company_kb\secretariat.php on line 909
+[11-Jul-2026 15:28:31 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function shamsi_date() in C:\xampp\htdocs\company_kb\secretariat.php:1031
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\company_kb\secretariat.php on line 1031
