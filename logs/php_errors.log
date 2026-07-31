@@ -1,0 +1,8 @@
+[20-Jul-2026 16:57:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Object of class PDO could not be converted to string in C:\xampp\htdocs\company_kb\cron_reminder.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\company_kb\cron_reminder.php on line 45
+[20-Jul-2026 16:57:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Object of class PDO could not be converted to string in C:\xampp\htdocs\company_kb\cron_reminder.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\company_kb\cron_reminder.php on line 45
